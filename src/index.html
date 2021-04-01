@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>
+      Imersão Dev - Exercicio 01
+    </title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra o valor do seu dinheiro na moeda do destino de sua viagem
+      </p>
+      <div class= "conversor" align= "center">
+        <br>
+        <label>Qual o valor em Real que voçê quer converter?</label>
+        <input type="text" id="moedaDeOrigem"/>
+        <br><br>
+        <form action="">
+          <label for="moeda">Qual a moeda do destino?</label>
+          <select name="moeda" id="moedas">
+            <option value=""></option>
+            <option value="dolar">Dólar</option>
+            <option value="euro">Euro</option>
+            <option value="libra">Libra</option>
+          </select>
+          <br><br>
+          <input class="button" type="button" value="Calcular" onclick= "calcular()"/>
+        </form>
+        <br>
+      </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

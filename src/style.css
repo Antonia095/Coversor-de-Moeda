@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://escrever.info/wp-content/uploads/2020/06/viagem-ou-viajem.jpg');
+  background-color:#87CEFA;
+  background-size: 180vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.conversor {
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#moedaDeOrigem {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #bbbbbb;
+  padding: 5px;
+}
+
+#moedas {
+  padding: 5px;
+}
+
+.button {
+  background-color:#708090;
+  color: white;
+  padding: 13px;
+  border-radius: 5px;
+}
